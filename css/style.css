@@ -3,3 +3,94 @@
 img {
     width: 250px;
 }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    color: #0b2545;
+}
+
+/* Section hero */
+.hero {
+    min-height: 100vh;
+    padding: 4rem 6rem;
+    background: linear-gradient(135deg, #3bb7ff, #7bcf9f);
+    display: flex;
+    align-items: center;
+}
+
+/* Contenu */
+.hero-content {
+    max-width: 900px;
+}
+
+/* Badge */
+.badge {
+    display: inline-block;
+    background-color: #0b2545;
+    color: #ffffff;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Titre */
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.hero h1 span {
+    color: #ffffff;
+}
+
+/* Description */
+.hero-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+/* Boutons */
+.hero-actions {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #2fa4ff;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #1c8fe0;
+}
+
+.btn-secondary {
+    background-color: #0b2545;
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background-color: #081c35;
+}
+
+/* Statistiques */
+.hero-stats {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
